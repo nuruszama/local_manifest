@@ -13,8 +13,6 @@
            remote="github" 
            revision="main" />
 
-  <!-- QCOM CAF HALs (USE sm6375, NOT sm8450) -->
-
   <!-- Display -->
   <project path="hardware/qcom-caf/sm6225/display"
            name="LineageOS/android_hardware_qcom_display"
@@ -32,8 +30,6 @@
            name="LineageOS/android_hardware_qcom_media"
            remote="github"
            revision="lineage-23.2-caf-sm6375" />
-
-  <!-- Optional but IMPORTANT -->
 
   <!-- Data Services -->
   <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr"
