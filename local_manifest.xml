@@ -41,14 +41,7 @@
   <project path="hardware/qcom-caf/sm6225/gps"
            name="LineageOS/android_hardware_qcom_gps"
            remote="github"
-           revision="lineage-23.0q" />
-
-  <!-- Power HAL -->
-  <!-- project path="hardware/qcom-caf/sm6225/power"
-           name="LineageOS/android_hardware_qcom_power"
-           remote="github"
-           revision="lineage-23.2-caf-sm8450" q/>
-
+           revision="lineage-23.0" />
   
   <!-- Display commons (some builds require this) -->
   <project path="hardware/qcom-caf/common/display"
@@ -60,7 +53,7 @@
   <project path="hardware/qcom-caf/common/media"
            name="LineageOS/android_hardware_qcom_media"
            remote="github"
-           revision="lineage-23.2-caf-sm8250w" />
+           revision="lineage-23.2-caf-sm8250" />
 
   <!-- ========== XIAOMI COMMON ========== -->
   <project path="hardware/xiaomi"
