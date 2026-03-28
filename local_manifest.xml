@@ -1,15 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/xiaomi/creek" name="nuruszama/device-xiaomi-creek" remote="github" revision="main" />
-  <project path="vendor/xiaomi/creek" name="nuruszama/vendor-xiaomi-creek" remote="github" revision="main" />
+  <!-- Device -->
+  <project path="device/xiaomi/creek" 
+           name="nuruszama/device-xiaomi-creek" 
+           remote="github" 
+           revision="main" />
 
-  <project path="hardware/qcom-caf/sm6225/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-23.2-caf-sm8450" />
-  
-  <project path="hardware/qcom-caf/sm6225/audio" name="LineageOS/android_hardware_qcom_audio-ar" remote="github" revision="lineage-23.2-caf-sm8450" />
-  
-  <project path="hardware/qcom-caf/sm6225/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-23.2-caf-sm8450" />
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/creek" 
+           name="nuruszama/vendor-xiaomi-creek" 
+           remote="github" 
+           revision="main" />
 
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />
+  <!-- QCOM CAF HALs (USE sm6375, NOT sm8450) -->
+
+  <!-- Display -->
+  <project path="hardware/qcom-caf/sm6225/display"
+           name="LineageOS/android_hardware_qcom_display"
+           remote="github"
+           revision="lineage-23.2-caf-sm6375" />
+
+  <!-- Audio -->
+  <project path="hardware/qcom-caf/sm6225/audio"
+           name="LineageOS/android_hardware_qcom_audio-ar"
+           remote="github"
+           revision="lineage-23.2-caf-sm6375" />
+
+  <!-- Media -->
+  <project path="hardware/qcom-caf/sm6225/media"
+           name="LineageOS/android_hardware_qcom_media"
+           remote="github"
+           revision="lineage-23.2-caf-sm6375" />
+
+  <!-- Optional but IMPORTANT -->
+
+  <!-- Data Services -->
+  <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr"
+           name="LineageOS/android_hardware_qcom_data-ipa-cfg-mgr"
+           remote="github"
+           revision="lineage-23.2-caf-sm6375" />
+
+  <!-- GPS -->
+  <project path="hardware/qcom-caf/sm6225/gps"
+           name="LineageOS/android_hardware_qcom_gps"
+           remote="github"
+           revision="lineage-23.2-caf-sm6375" />
+
+  <!-- Power -->
+  <project path="hardware/qcom-caf/sm6225/power"
+           name="LineageOS/android_hardware_qcom_power"
+           remote="github"
+           revision="lineage-23.2-caf-sm6375" />
+
+  <!-- Xiaomi common -->
+  <project path="hardware/xiaomi"
+           name="LineageOS/android_hardware_xiaomi"
+           remote="github"
+           revision="lineage-23.2" />
 
 </manifest>
